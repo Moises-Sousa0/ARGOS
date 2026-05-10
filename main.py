@@ -20,19 +20,19 @@ while True:
             audio = r.listen(entrada, timeout=5) #ouve ate detectar silencio e salva o audio
            
 
-        with NamedTemporaryFile(suffix=".wav", delete=False) as f:
+        with NamedTemporaryFile(suffix=".wav", delete=False) as f: #o delete false desativa a opcao de deletar automaticamente
             f.write(audio.get_wav_data())
-            temppath = Path(f.name)
+            temppath = Path(f.name) #localizao do arquivo temporario
 
         
 
 
         
-        resultado = modelo.transcribe(str(temppath), language='pt') #transcreve o audio para texto ptbr
+        resultado = modelo.transcribe(str(temppath), language='pt') #transcreve o audio para texto ptbr / temppath pois o whisper precisa saber onde está o arquivo / str pois path seria um objeto, e o whisper espera uma string
         temppath.unlink() #deletea o arquivo temporario
         transc = resultado['text']
         if len(transc.strip()) < 3:
-            continue
+            continue #se a transc for menor que 3, o programa volta pro começo - serve para diminuir a chance do programa escutar algum barulho e entender como uma fala/comando
         
 
 
