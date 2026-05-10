@@ -1,50 +1,50 @@
-🛠️ Projeto Argos
-O Argos é um assistente virtual que estou desenvolvendo em Python para colocar em prática conceitos de Inteligência Artificial local, processamento de áudio e automação de sistemas.
+Argos - Assistente Virtual Inteligente 🛰️
+O Argos é um assistente virtual desenvolvido em Python, focado em processamento local e automação. O projeto nasceu como um laboratório pessoal para explorar a integração entre reconhecimento de voz, modelos de linguagem (LLMs) e sistemas operacionais, mantendo a privacidade e o controle total dos dados.
 
-O objetivo principal deste repositório é servir como um ambiente de estudos, onde exploro a integração de diferentes tecnologias para criar uma interface de voz funcional que rode inteiramente na minha máquina.
+🛠️ O que o Argos faz hoje?
+Atualmente, o projeto já estabeleceu sua base de comunicação e processamento:
 
-🧠 O que estou estudando aqui?
-Este projeto é minha base para aprender e aplicar:
+Reconhecimento de Voz: Captura e processamento de áudio em tempo real.
 
-Backend com Python: Estruturação de projetos e lógica de automação.
+Transcrição Local: Tradução de fala para texto em português utilizando Whisper.
 
-IA Local: Implementação e consumo de modelos (LLMs) via Ollama.
+Cérebro (LLM): Integração com Llama 3.1 via Ollama para processamento de linguagem natural.
 
-Processamento de Linguagem Natural (NLP): Uso do Whisper para transcrição de fala em tempo real.
+Execução Offline: Todo o fluxo ocorre localmente, aproveitando a aceleração por GPU (CUDA).
 
-Sistemas e Hardware: Configuração de bibliotecas para reconhecimento de voz e uso de CUDA para aceleração por GPU.
+Interação via Terminal: Respostas rápidas e logs de processamento direto no console.
 
-⚡ Como o Argos funciona hoje
-Atualmente, o projeto já consegue realizar o fluxo básico:
+🚀 O Futuro do Argos (Visão)
+O projeto está em constante evolução, caminhando para se tornar uma central de comando inteligente. Os próximos passos visam transformar o Argos de um simples assistente de resposta em um agente executor:
 
-Escuta: Captura o áudio pelo microfone.
+Agente de Sistema: Capacidade de gerenciar arquivos, abrir aplicações e executar comandos de sistema por voz.
 
-Transcrição: Transforma a fala em texto (Português) usando o Whisper.
+Memória de Longo Prazo: Implementação de contexto persistente para que o Argos aprenda preferências e histórico do usuário.
 
-Processamento: Envia o texto para um modelo local (Llama 3.1) que gera uma resposta.
+Automação e APIs: Integração com serviços externos e ferramentas de rede para monitoramento e tarefas automatizadas.
 
-Interface: Exibe a interação em tempo real no terminal.
+Modularidade Avançada: Uma arquitetura plug-and-play onde novas habilidades podem ser adicionadas como módulos independentes.
 
-Controle: Permite encerrar o processo por comandos de voz específicos.
+Integração em Redes: Capacidade de interagir com ferramentas de segurança e diagnósticos de infraestrutura.
 
-🚀 Próximos Passos (O que pretendo implementar)
-Como o projeto está em construção, estes são os desafios que quero atacar em seguida:
+🧠 Aprendizados em Foco
+Este repositório é o registro da minha jornada técnica em:
 
-[ ] Memória: Fazer o Argos "lembrar" do que conversamos na mesma sessão.
+Arquitetura de software e sistemas modulares.
 
-[ ] Comandos de Sistema: Criar funções para ele abrir programas ou controlar o volume.
+Processamento de sinais e áudio em tempo real.
 
-[ ] Código Modular: Refatorar o código para deixá-lo mais organizado e fácil de expandir.
+Engenharia de prompts e otimização de modelos de IA locais.
 
-[ ] Novas Integrações: Testar o uso de APIs externas e ferramentas de rede.
+Manipulação de processos e automação de tarefas via Python.
 
-🛠️ Tecnologias Utilizadas
-Python
+🔧 Tecnologias Utilizadas
+Linguagem: Python
 
-OpenAI Whisper (via SpeechRecognition)
+Transcrição: OpenAI Whisper
 
-Ollama (Llama 3.1)
+Modelos: Ollama (Llama 3.1)
 
-CUDA (NVIDIA)
+Interface de Áudio: SpeechRecognition / PyAudio
 
-📝 Nota: Este é um projeto em desenvolvimento e focado em aprendizado pessoal. Erros e refatorações constantes fazem parte do processo!
+Aceleração: NVIDIA CUDA
