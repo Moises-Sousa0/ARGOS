@@ -36,8 +36,6 @@ O projeto surgiu como uma forma de estudar backend, automação, processamento d
 * Automação de tarefas
 * Execução de comandos no sistema
 * Integração com APIs
-* Interface própria
-* Sistema de plugins
 * Controle do computador por voz
 * Melhor reconhecimento de contexto
 * Estrutura modular
@@ -50,13 +48,11 @@ O projeto surgiu como uma forma de estudar backend, automação, processamento d
 * Backend
 * Arquitetura de software
 * APIs
-* Linux
 * Automação
 * Processamento de áudio
 * Estruturação de projetos
 * LLMs locais
 * Manipulação de processos e arquivos
-* Segurança da informação
 
 ---
 
