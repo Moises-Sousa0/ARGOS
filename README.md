@@ -2,11 +2,11 @@
 
 Assistente virtual desenvolvido em Python com reconhecimento de voz, integração com LLMs locais e automação por comandos.
 
-O projeto surgiu como uma forma de estudar backend, automação, Linux, processamento de áudio e integração de modelos de IA locais. A ideia é evoluir o Argos para um assistente cada vez mais funcional, modular e inteligente.
+O projeto surgiu como uma forma de estudar backend, automação, processamento de áudio e integração de modelos de IA locais. A ideia é evoluir o Argos para um assistente cada vez mais funcional, modular e inteligente.
 
 ---
 
-## Tecnologias
+## Tecnologias (até o momento)
 
 * Python
 * Whisper
