@@ -1,50 +1,65 @@
-Argos - Assistente Virtual Inteligente 🛰️
-O Argos é um assistente virtual desenvolvido em Python, focado em processamento local e automação. O projeto nasceu como um laboratório pessoal para explorar a integração entre reconhecimento de voz, modelos de linguagem (LLMs) e sistemas operacionais, mantendo a privacidade e o controle total dos dados.
+# ARGOS
 
-🛠️ O que o Argos faz hoje?
-Atualmente, o projeto já estabeleceu sua base de comunicação e processamento:
+Assistente virtual desenvolvido em Python com reconhecimento de voz, integração com LLMs locais e automação por comandos.
 
-Reconhecimento de Voz: Captura e processamento de áudio em tempo real.
+O projeto surgiu como uma forma de estudar backend, automação, Linux, processamento de áudio e integração de modelos de IA locais. A ideia é evoluir o Argos para um assistente cada vez mais funcional, modular e inteligente.
 
-Transcrição Local: Tradução de fala para texto em português utilizando Whisper.
+---
 
-Cérebro (LLM): Integração com Llama 3.1 via Ollama para processamento de linguagem natural.
+## Tecnologias
 
-Execução Offline: Todo o fluxo ocorre localmente, aproveitando a aceleração por GPU (CUDA).
+* Python
+* Whisper
+* Ollama
+* Llama 3.1
+* SpeechRecognition
+* CUDA
 
-Interação via Terminal: Respostas rápidas e logs de processamento direto no console.
+---
 
-🚀 O Futuro do Argos (Visão)
-O projeto está em constante evolução, caminhando para se tornar uma central de comando inteligente. Os próximos passos visam transformar o Argos de um simples assistente de resposta em um agente executor:
+## Funcionalidades atuais
 
-Agente de Sistema: Capacidade de gerenciar arquivos, abrir aplicações e executar comandos de sistema por voz.
+* Captura de áudio pelo microfone
+* Reconhecimento de voz em português
+* Transcrição utilizando Whisper
+* Integração com LLM local
+* Respostas em tempo real no terminal
+* Encerramento por comando de voz
+* Tratamento básico de erros
+* Execução local
 
-Memória de Longo Prazo: Implementação de contexto persistente para que o Argos aprenda preferências e histórico do usuário.
+---
 
-Automação e APIs: Integração com serviços externos e ferramentas de rede para monitoramento e tarefas automatizadas.
+## Objetivos futuros
 
-Modularidade Avançada: Uma arquitetura plug-and-play onde novas habilidades podem ser adicionadas como módulos independentes.
+* Memória contextual
+* Automação de tarefas
+* Execução de comandos no sistema
+* Integração com APIs
+* Interface própria
+* Sistema de plugins
+* Controle do computador por voz
+* Melhor reconhecimento de contexto
+* Estrutura modular
+* Integração com ferramentas de redes e segurança
 
-Integração em Redes: Capacidade de interagir com ferramentas de segurança e diagnósticos de infraestrutura.
+---
 
-🧠 Aprendizados em Foco
-Este repositório é o registro da minha jornada técnica em:
+## Aprendizados com o projeto
 
-Arquitetura de software e sistemas modulares.
+* Backend
+* Arquitetura de software
+* APIs
+* Linux
+* Automação
+* Processamento de áudio
+* Estruturação de projetos
+* LLMs locais
+* Manipulação de processos e arquivos
+* Segurança da informação
 
-Processamento de sinais e áudio em tempo real.
+---
 
-Engenharia de prompts e otimização de modelos de IA locais.
+## Status
 
-Manipulação de processos e automação de tarefas via Python.
-
-🔧 Tecnologias Utilizadas
-Linguagem: Python
-
-Transcrição: OpenAI Whisper
-
-Modelos: Ollama (Llama 3.1)
-
-Interface de Áudio: SpeechRecognition / PyAudio
-
-Aceleração: NVIDIA CUDA
+🚧 Projeto em desenvolvimento e testes.
