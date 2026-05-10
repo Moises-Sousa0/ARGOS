@@ -45,10 +45,10 @@ while True:
 
 
         print("Pensando...")
-        mensagens = [{'role': 'user', 'content': transc}] #role seria o usario, content seria o conteudo do trans, o que foi dito
+        mensagens = [{'role': 'user', 'content': transc}] #role seria o usario, content seria o conteudo do transc, o que foi dito
         response = ollama.chat(model='llama3.1:latest', messages=mensagens)
         print("\n================\n")
-        print(response['message']['content']) #printa resposta do deepseek
+        print(response['message']['content']) #printa resposta da LLM
         print("\n================\n")
         
     
